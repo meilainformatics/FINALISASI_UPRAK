@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const filmData = {
       intj: [
         {
-          mood: 'excited',
+          mood: 'happy',
           genre: 'aksi',
           title: 'Inception',
           img: 'https://media.themoviedb.org/t/p/w300_and_h450_bestv2/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg',
-          age_rating: '13',
+          age_rating: '17',
         },
         {
           mood: 'excited',
@@ -50,18 +50,18 @@ document.addEventListener('DOMContentLoaded', function () {
           age_rating: '17',
         },
         {
-          mood: 'excited',
+          mood: 'happy',
           genre: 'fiksi ilmiah',
           title: 'Arrival',
           img: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg',
           age_rating: '13',
         },
         {
-          mood: 'calm',
+          mood: 'happy',
           genre: 'drama',
           title: 'The Shawshank Redemption',
           img: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg',
-          age_rating: '15',
+          age_rating: '17',
         },
         {
           mood: 'calm',
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
           age_rating: '17',
         },
         {
-          mood: 'happy',
+          mood: 'exited',
           genre: 'komedi',
           title: 'Shaun of the Dead',
           img: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg',
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
           age_rating: '10',
         },
         {
-          mood: 'happy',
+          mood: 'exited',
           genre: 'animasi',
           title: 'Inside Out',
           img: 'https://i.pinimg.com/474x/6d/71/e7/6d71e72ccb7199f965f6b8106267a8e8.jpg',
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'drama',
           title: "Schindler's List",
           img: 'https://i.pinimg.com/474x/58/7a/2a/587a2a1dbb33437d4c48811e020c4ec8.jpg',
-          age_rating: '15',
+          age_rating: '17',
         },
         {
           mood: 'sad',
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
           age_rating: '15',
         },
         {
-          mood: 'sad',
+          mood: 'calm',
           genre: 'drama',
           title: 'Manchester by the Sea',
           img: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg',
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'romantis',
           title: 'The Notebook',
           img: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg',
-          age_rating: '13',
+          age_rating: '15',
         },
         {
           mood: 'sad',
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'aksi',
           title: 'Inception',
           img: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg',
-          age_rating: '13',
+          age_rating: '17',
         },
         {
           mood: 'excited',
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'fiksi ilmiah',
           title: 'Interstellar',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg',
-          age_rating: '13',
+          age_rating: '15',
         },
         {
           mood: 'excited',
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'drama',
           title: 'The Imitation Game',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg',
-          age_rating: '13',
+          age_rating: '17',
         },
         {
           mood: 'calm',
@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
           mood: 'happy',
-          genre: 'komedi',
+          genre: 'Drana',
           title: 'The Big Lebowski',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/9mprbw31MGdd66LR0AQKoDMoFRv.jpg',
           age_rating: '17',
@@ -252,14 +252,14 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'animasi',
           title: 'Spirited Away',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg',
-          age_rating: '10',
+          age_rating: '10' '17',
         },
         {
           mood: 'happy',
           genre: 'animasi',
           title: 'Wall-E',
           img: 'https://i.pinimg.com/736x/f2/5b/e0/f25be05af79802b72455b7b34cc80e6d.jpg',
-          age_rating: '10',
+          age_rating: '10''17',
         },
         {
           mood: 'sad',
@@ -289,14 +289,14 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'aksi',
           title: 'Inception',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg',
-          age_rating: '13',
+          age_rating: '17',
         },
         {
           mood: 'excited',
           genre: 'aksi',
           title: 'The Dark Knight',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg',
-          age_rating: '13',
+          age_rating: '17',
         },
         {
           mood: 'excited',
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'fiksi ilmiah',
           title: 'Minority Report',
           img: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oUbANT6vjAFbHvhDQ3cxCZOzPK1.jpg',
-          age_rating: '13',
+          age_rating: '17',
         },
         {
           mood: 'calm',
@@ -324,14 +324,14 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'drama',
           title: 'Moneyball',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg',
-          age_rating: '13',
+          age_rating: '17',
         },
         {
           mood: 'calm',
           genre: 'misteri',
           title: 'Zodiac',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/6YmeO4pB7XTh8P8F960O1uA14JO.jpg',
-          age_rating: '15',
+          age_rating: '17',
         },
         {
           mood: 'calm',
@@ -352,21 +352,21 @@ document.addEventListener('DOMContentLoaded', function () {
           genre: 'komedi',
           title: 'Thank You for Smoking',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/cJpeM7U36diFinieBWNLVi0FlQz.jpg',
-          age_rating: '17',
+          age_rating: '15',
         },
         {
           mood: 'happy',
           genre: 'animasi',
           title: 'The Incredibles',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg',
-          age_rating: '10',
+          age_rating: '10''17',
         },
         {
           mood: 'happy',
           genre: 'animasi',
           title: 'Ratatouille',
           img: 'https://media.themoviedb.org/t/p/w188_and_h282_bestv2/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg',
-          age_rating: '10',
+          age_rating: '10''15',
         },
         {
           mood: 'sad',
