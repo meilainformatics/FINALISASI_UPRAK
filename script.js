@@ -1,16 +1,17 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const filmList = document.getElementById('filmForm');
+document.getElementById('filmForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Mencegah halaman reload
 
-  filmList.addEventListener('submit', function (event) {
-    // MENCEGAH RELOAD
-    event.preventDefault();
+  // Ambil nilai input
+  const mbti = document.getElementById('mbti').value;
+  const umur = document.getElementById('umur').value;
+  const mood = document.getElementById('mood').value;
+  const genre = document.getElementById('genre').value;
 
-    // MENGAMBIL DATA DARI FORM
-    let mbti = document.getElementById('mbti').value;
-    let umur = document.getElementById('age_rating').value;
-    let mood = document.getElementById('mood').value;
-    let genre = document.getElementById('genre').value.toLowerCase();
-
+  // Validasi sederhana
+  if (!mbti || !umur || !mood || !genre) {
+    alert('Harap isi semua kolom!');
+    return;
+  }
     // DATA BANK FILM
     const filmData = {
       intj: [
@@ -1524,10 +1525,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ],
     };
     // AKHIR DARI BANK FILM
-
-document.getElementById('filmData').addEventListener('submit', function(event) {
-  event.preventDefault(); // Mencegah halaman reload
-
+  
 
     // Filter film sesuai input
     const rekomendasi = filmData[mbti].filter(
