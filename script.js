@@ -1525,6 +1525,12 @@ document.addEventListener('DOMContentLoaded', function () {
     };
     // AKHIR DARI BANK FILM
 
+    document.querySelector('form').addEventListener('submit', function(event) {
+  event.preventDefault(); // Mencegah reload halaman
+  // Lanjutkan proses seperti validasi, kirim data via AJAX, dll.
+  alert('Data terkirim tanpa reload!');
+});
+
     // Filter film sesuai input
     const rekomendasi = filmData[mbti].filter(
       (film) =>
